@@ -38,7 +38,7 @@ app.post('/create', async (req, res) => {
             TRANSTYPE,
             REMARKS
         );
-        res.send(`✅ Created asset ${ID}`);
+        res.send(`Created asset ${ID}`);
     } catch (error) {
         res.status(500).send(error.message);
     }
@@ -93,7 +93,7 @@ app.post('/update', async (req, res) => {
             TRANSTYPE,
             REMARKS
         );
-        res.send(`✅ Updated asset ${ID}`);
+        res.send(`Updated asset ${ID}`);
     } catch (error) {
         res.status(500).send(error.message);
     }
