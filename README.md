@@ -103,8 +103,11 @@ Each asset contains the following data:
 ### REST API Endpoints
 
  POST	/create	Create a new asset
+ 
  GET	/read/:id	Read an asset by ID
+ 
  PUT	/update/:id	Update an asset by ID
+ 
  GET	/history/:id	View asset history
 
 ### Example:
