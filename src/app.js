@@ -100,5 +100,5 @@ app.post('/update', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`🚀 API running at http://localhost:${port}`);
+    console.log(` API running at http://localhost:${port}`);
 });
